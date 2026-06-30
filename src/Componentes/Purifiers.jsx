@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 const airPurifiers = [
   {
     id: 1,
@@ -71,9 +72,12 @@ export default function AirPurifiers() {
             </div>
           ))}
         </div>
-        <button onClick={() => window.location.href = "/Benifits"} className="w-full mt-5 bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition text-2xl">
-          Benefits of Air Purifiers
-        </button>
+       <Link
+  to="/Benefits"
+  className="block w-full mt-5 bg-blue-600 text-white py-3 rounded-xl hover:bg-blue-700 transition text-2xl text-center"
+>
+  Benefits of Air Purifiers
+</Link>
       </div>
     </section>
   );

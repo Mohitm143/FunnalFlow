@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./Componentes/Navbar";
 import Hero from "./Componentes/Hero";
 import Purifiers from "./Componentes/Purifiers";
-import Benifits from "./Componentes/Benifits";
+import Benefits from "./Componentes/Benefits";
 
 const App = () => {
   return (
@@ -11,7 +11,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="/purifiers" element={<Purifiers />} />
-        <Route path="/Benifits" element={<Benifits />} />
+        <Route path="/benefits" element={<Benefits />} />
       </Routes>
     </>
   );
