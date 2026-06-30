@@ -5,13 +5,34 @@ import Purifiers from "./Componentes/Purifiers";
 import Benefits from "./Componentes/Benefits";
 import About from "./Componentes/About";
 import Contact from "./Componentes/Contact";
+import Testimonials from "./Componentes/Testomonial";
+import Use from "./Componentes/Use";
+import BestSeller from "./Componentes/BestSeller";
+
+const Home = () => {
+  return (
+    <>
+      <Hero />
+      <About />
+      <Benefits />
+      <Use />
+      <BestSeller />
+      <Testimonials />
+      <Contact />
+      
+      
+      
+    </>
+  );
+};
+
 const App = () => {
   return (
     <>
       <Navbar />
 
       <Routes>
-        <Route path="/" element={<Hero />} />
+        <Route path="/" element={<Home />} />
         <Route path="/purifiers" element={<Purifiers />} />
         <Route path="/benefits" element={<Benefits />} />
         <Route path="/about" element={<About />} />
@@ -22,4 +43,3 @@ const App = () => {
 };
 
 export default App;
-
