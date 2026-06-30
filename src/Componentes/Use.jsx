@@ -6,42 +6,42 @@ const features = [
     description:
       "Removes dust, smoke, pollen, allergens and PM2.5 particles to deliver cleaner and healthier indoor air.",
     image:
-      "https://picsum.photos/seed/airpurifier/600/400",
+      "https://kfilterglobal.com/wp-content/uploads/2024/07/csm_filter_layers_FAFS_599abaae53.jpg",
   },
   {
     title: "HEPA H13 Filtration",
     description:
       "Captures up to 99.97% of airborne pollutants including bacteria and microscopic particles.",
     image:
-      "https://picsum.photos/seed/hepa/600/400",
+      "https://www.inno3c.com.hk/cdn/shop/files/2_24059cef-8326-4a6e-a293-a0b0f9226277.jpg?v=1714718066",
   },
   {
     title: "Healthy Family Protection",
     description:
       "Provides a healthier indoor environment for children, adults and senior citizens.",
     image:
-      "https://picsum.photos/seed/family/600/400",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkZ7SxeN0s7SFKN9oBpUW29cHoaOvIYPpS1rBomeYrCJgU80fYg2uTrcMp&s=10",
   },
   {
     title: "Ultra Silent Operation",
     description:
       "Operates with minimal noise, making it ideal for bedrooms, offices and study rooms.",
     image:
-      "https://picsum.photos/seed/bedroom/600/400",
+      "https://m.media-amazon.com/images/I/81TtMEe+CjL.jpg",
   },
   {
     title: "Energy Efficient",
     description:
       "Consumes less electricity while maintaining powerful air purification performance.",
     image:
-      "https://picsum.photos/seed/eco/600/400",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZsMUOXws_zfekS0hbCd86PA-KwYxduR2ECmpGutlYak43CVlGIlX8wrY&s=10",
   },
   {
     title: "Smart Air Quality Control",
     description:
       "Automatically adjusts purification speed based on indoor air quality.",
     image:
-      "https://picsum.photos/seed/smart/600/400",
+      "https://www.filterfactory.com/assets/images/revolution.jpg",
   },
 ];
 
